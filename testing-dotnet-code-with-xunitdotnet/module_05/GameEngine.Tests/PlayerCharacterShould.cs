@@ -164,7 +164,8 @@ namespace GameEngine.Tests
         }
 
         [Theory]
-        [MemberData(nameof(ExternalHealthDamageTestData.TestData), MemberType = typeof(ExternalHealthDamageTestData))]
+        //[MemberData(nameof(ExternalHealthDamageTestData.TestData), MemberType = typeof(ExternalHealthDamageTestData))]
+        [HealthDamageData]
         public void TakeDamage(int damage, int expectedHealth)
         {
             _sut.TakeDamage(damage);
