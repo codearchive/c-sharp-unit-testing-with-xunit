@@ -3,4 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="xunit.assert">
+      <HintPath>C:\Users\pavel\.nuget\packages\xunit.assert\2.4.0\lib\netstandard2.0\xunit.assert.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
